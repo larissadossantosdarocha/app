@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tarefas a fazer</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tarefas</h1>
+        <button onclick="document.getElementById('modalNovo').classList.remove('oculto')">Nova Tarefa</button>
+    </header>
+    <main>
+    </main>
+    <footer>
+        <h2>By Larissa</h2>
+    </footer>
+    <section id="modalNovo" class="modal oculto">
+        <div class="janela">
+            <h2>Nova Tarefa</h2>
+            <form id="formNovaTarefa">
+                <div>
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+                <div>
+                    <label for="conteudo">Conteúdo:</label>
+                    <textarea id="conteudo" name="conteudo" required></textarea>
+                </div>
+                <div>
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+                <button type="submit">Cadastrar</button>
+                <button type="button"
+                    onclick="document.getElementById('modalNovo').classList.add('oculto')">Fechar</button>
+            </form>
+        </div>
+    </section>
+    <script type="module" src="script.js"></script>
+</body>
+
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyBe2fX413dY1qoC1jpiEcSfcInwVIt1AuE",
+  authDomain: "data-connect-78ba4.firebaseapp.com",
+  projectId: "data-connect-78ba4",
+  storageBucket: "data-connect-78ba4.firebasestorage.app",
+  messagingSenderId: "516991596835",
+  appId: "1:516991596835:web:38e102db6cbf506db3b496",
+  measurementId: "G-HRWPFQEXK4"
+    };
+</script>
+
+</html>
