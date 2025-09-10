@@ -6,10 +6,10 @@
 }
 
 :root {
-    --c1: #f0f0f0;
-    --c2: #333;
-    --c3: rgb(136, 0, 129);
-    --c4: rgb(246, 197, 248);
+    --c1: #141313;
+    --c2: #141414;
+    --c3: rgb(129, 128, 25);
+    --c4: rgb(235, 235, 227);
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
 }
 
-header,
+header, 
 footer {
     width: 100%;
     height: 10vh;
