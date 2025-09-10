@@ -5,21 +5,21 @@
 
  # Passo a passo para criar um projeto Firebase, Adicionar Firestore e configurar o ambiente
 
-## Abra o firebase desça e faça login
+1 ## Abra o firebase desça e faça login
 
-## Crie um ambiente tipo "Data connect"
+2 ## Crie um ambiente tipo "Data connect"
 
-## Crie um novo Projeto
+3 ## Crie um novo Projeto
 
-## Clique em 'criação' e em 'Firestone Database'
+4 ## Clique em 'criação' e em 'Firestone Database'
 
-## Configure o Firestore, crie o banco de dados 
+5 ## Configure o Firestore, crie o banco de dados 
 
-## Crie um banco de dados Firestore
+6 ## Crie um banco de dados Firestore
 
-## Para testar localmente altere o if false para if true
+7 ## Para testar localmente altere o if false para if true
 
-### Depois clique na parte superior do firebase para sair e entrar novamente no projeto, adicione um app "web" , ele vai te dar um codigo que começa com apiKey até H"
+8 ### Depois clique na parte superior do firebase para sair e entrar novamente no projeto, adicione um app "web" , ele vai te dar um codigo que começa com apiKey até H"
 
 
  
