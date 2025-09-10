@@ -19,7 +19,7 @@
 
 ## Para testar localmente altere o if false para if true
 
-## Depois clique na parte superior do firebase para sair e entrar novamente no projeto, adicione um app "web" , ele vai te dar um codigo que começa com apiKey até H"
+### Depois clique na parte superior do firebase para sair e entrar novamente no projeto, adicione um app "web" , ele vai te dar um codigo que começa com apiKey até H"
 
 
  
