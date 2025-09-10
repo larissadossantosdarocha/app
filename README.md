@@ -5,7 +5,7 @@
 
  # Passo a passo para criar um projeto Firebase, Adicionar Firestore e configurar o ambiente
 
-1 ## Abra o firebase desça e faça login
+ ## 1- Abra o firebase desça e faça login
 
 2 ## Crie um ambiente tipo "Data connect"
 
